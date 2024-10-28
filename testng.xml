@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.automation.utility.ListenerUtility"></listener></listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      
+      <class name="com.automation.tests.SFDCLogin"/>
+    <class name="com.automation.tests.UserMenuDropdown"/>
+    <class name="com.automation.tests.CreateAccount"/>
+    <class name="com.automation.tests.CreateOpportunity"/>
+    <class name="com.automation.tests.Leads"/>
+    <class name="com.automation.tests.Contacts"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
